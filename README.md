@@ -63,7 +63,7 @@ For more information on using the Angular CLI, including detailed command refere
 1. criação novo projeto
    - ng new my-first-angular-app
 2. ng generate component components/home (convensão)
-3. cria novo componente
+   - cria novo componente
 4. uso de componentes dentro de outros componentes
 5. uso de componentes em rotas 
 6. criação de estados
