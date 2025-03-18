@@ -57,3 +57,22 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+## Conceitos estudados
+
+1. criação novo projeto
+   - ng new my-first-angular-app
+2. ng generate component components/home (convensão)
+3. cria novo componente
+4. uso de componentes dentro de outros componentes
+5. uso de componentes em rotas 
+6. criação de estados
+7. renderização de dados dinâmicos
+8. bind de eventos
+9. atributos dinamicos
+10. loops e condicionais
+11. services(compartilhando logica -metodos entre componentes)
+  - ng generate service services/enviaFormulario
+12. enviando informacao de um componente para outro
+  - @Input - recebe informacao do componente pai
+  - @Output-envia  informacao do componente filho para pai

@@ -1,0 +1,21 @@
+<h1>
+    {{minhaPropsDeFora}}
+</h1>
+
+<p>Ola Eduardo {{nome}} </p>
+
+<button (click)="submit()">clique</button>
+
+@if(deveMostrarTitulo){
+    <h1>Meu titulo</h1>
+} @else if(nome == "eduardo"){
+    <h1>Meu titulo para Eduardo</h1>
+}
+@else{
+    <h1>Não foi verdadeiro</h1>
+}
+
+@for(item  of listItens;track item){
+    <p>{{item}}</p>
+}
+
